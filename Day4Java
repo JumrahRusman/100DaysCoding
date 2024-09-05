@@ -1,0 +1,13 @@
+package day4;
+
+public class jumrahcantik {
+    public static void main(String[]args){
+        String b = "nama ayah rusman";
+        String c = "nama ibu hijranah";
+        
+        System.out.printf(" %s %s %n", b, c);
+        
+        System.out.print("aku sayang ayah");
+        System.out.print("aku sayang ibu");
+    }
+}
