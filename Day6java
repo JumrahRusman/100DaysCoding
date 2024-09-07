@@ -1,0 +1,15 @@
+package day6;
+
+public class undaaa {
+    public static void main(String[]args){
+        
+        String nama,kelas;
+         nama = "jumrah";
+         kelas = "A";
+        
+        System.out.println(nama);
+        System.out.println(kelas);
+        
+        
+    }
+}
