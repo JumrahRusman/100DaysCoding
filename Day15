@@ -1,0 +1,13 @@
+package jumrahrusman;
+
+public class day15 {
+    public static void main(String[]args){
+        //membuat tipe data double
+        double hargaBaju = 56.500;
+        double hargaCelana = 93.100;
+        double total = (hargaBaju + hargaCelana);
+        
+          System.out.println("total:" + total );
+    }
+    
+}
