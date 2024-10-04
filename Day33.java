@@ -7,7 +7,7 @@ public class Main {
         System.out.println(myInt);  // Output: 9
         
             long myLong= 27;
-            double myDouble= (myLong) myLong;  // Manual casting: long ke diuble
+            double myDouble= (double) myLong;  // Manual casting: long ke diuble
              System.out.println(myDouble);  // Output: 27.0
         
     }
