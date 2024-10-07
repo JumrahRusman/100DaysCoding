@@ -10,13 +10,13 @@ public class day36 {
         System.out.print("bilangan  kedua : ");
         int b = input.nextInt();
         System.out.print("bilangan ketiga : ");
-        int c = input.nextInt();
+        int  c = input.nextInt();
         
         int hasilKali = a * b * c;
         System.out.println("hasil perkalian = " + hasilKali);
-        int hasilBagi = a / b / c;
+        int hasilBagi = a / c ;
         System.out.println("hasil bagi = " + hasilBagi);
-        int hasilSisaBagi = a % b % c;
+        int hasilSisaBagi = a % b;
         System.out.println("hasilSisaBagi = " + hasilSisaBagi);
     }
     
