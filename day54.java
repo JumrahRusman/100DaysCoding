@@ -10,7 +10,7 @@ public class unda {
         System.out.print("masukkan nilai : ");
         int akhir = input.nextInt();
         
-        for(int mulai = 30; mulai >  akhir ; mulai -=2){
+        for(int mulai = 30; mulai >  akhir ; mulai +=2){
         System.out.println( mulai);
 
         }
