@@ -1,0 +1,19 @@
+package day64;
+public class jundot {
+    public static void main(String[] args) {
+        
+        myLabel:
+        for(int a = 1; a <= 5; a++){
+             for(int b = 1; b <= 5; b++){
+                 System.out.println("luar "+ a +" dalam " + b);
+          
+                  if(b==3){
+                     break myLabel;
+                  
+    }
+    }
+        System.out.println("selesai");
+}
+}
+
+}
