@@ -1,26 +1,25 @@
-public class day97 {
+import java.util.Scanner;
+public class Main {
     public static void main(String[] args) {
-        int batasAwal = 1; 
-        int batasAkhir = 20; 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan bilangan: ");
+        int n = sc.nextInt();
+        
+        System.out.println("Bilangan prima dari 1 hingga " + n + ":");
 
-        System.out.println("Bilangan prima antara " + batasAwal + " dan " + batasAkhir + " adalah:");
-        for (int i = batasAwal; i <= batasAkhir; i++) {
-            if (isPrima(i)) {
-                System.out.print(i + " ");
+        for (int m = 2; m <= n; m++) {
+            boolean p = true;
+
+            for (int i = 2; i <= m / 2; i++) {
+                if (m % i == 0) {
+                    p = false;
+                    break;
+                }
+            }
+
+            if (p) {
+                System.out.print(m + " ");
             }
         }
     }
-
-    // Fungsi untuk mengecek apakah suatu bilangan prima
-    public static boolean isPrima(int n) {
-        if (n <= 1) {
-            return false;
-        }
-        for (int i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-        }
+}
